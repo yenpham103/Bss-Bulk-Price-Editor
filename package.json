@@ -1,14 +1,9 @@
 {
-  "name": "shopify-nextjs-prisma-app",
+  "name": "Bss Bulk Price Editor",
   "version": "2025.05.06",
   "type": "module",
   "author": {
-    "name": "Harshdeep Singh Hura",
-    "url": "https://harshdeephura.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kinngh/shopify-nextjs-prisma-app.git"
+    "name": "Yenx P."
   },
   "scripts": {
     "dev": "next dev",
@@ -26,9 +21,6 @@
     "update:config": "node _developer/tomlWriter.js; npm run pretty; shopify app deploy;",
     "update:url": "node _developer/updateDashboard.js",
     "-----> Database <-----": "",
-    "pg:create": "mkdir database; pg_ctl -D database init",
-    "pg:start": "pg_ctl -D database start",
-    "pg:stop": "pg_ctl -D database stop",
     "db:create": "mkdir database; mysqld --initialize-insecure --datadir=./database",
     "db:start": "mysqld --datadir=./database",
     "db:stop": "mysqladmin shutdown",
